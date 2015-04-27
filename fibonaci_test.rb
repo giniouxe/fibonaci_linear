@@ -24,6 +24,10 @@ class FibonaciTest < Minitest::Test
   end
 
   def test_fibo_25
-    assert_equal 75025, fibonaci(25)
+    assert_equal 75_025, fibonaci(25)
+  end
+
+  def test_fibo_38
+    assert_equal 39_088_169, fibonaci(38)
   end
 end
